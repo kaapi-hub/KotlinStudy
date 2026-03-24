@@ -1,17 +1,19 @@
 fun main(){
     val year = 1961
-    val startFlightTimeHour = 9
-    val startFlightTimeMinutes = 7
-    var hour = startFlightTimeHour
-    var minute = startFlightTimeMinutes
+//    var FlightTimeHour : String = '09'
+//    var FlightTimeMinutes : String = '07'
+    var hour = "09"
+    var minute = "07"
     println(year)
     println(hour)
     println(minute)
 
-    val endFlightTimeHour = 10
-    val endFlightTimeMinutes = 55
-    hour = endFlightTimeHour
-    minute = endFlightTimeMinutes
+//    var FlightTimeHour = "10"
+//    var FlightTimeMinutes = "55"
+//    hour = FlightTimeHour
+//    minute = FlightTimeMinutes
+    hour = "10"
+    minute = "55"
     println("$hour:$minute")
 //    println(minute)
 }
